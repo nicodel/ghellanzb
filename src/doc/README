@@ -1,0 +1,48 @@
+gHellanzb                                                                 README
+
+
+                 Gnome applet monitoring hellanzb
+--------------------------------------------------------------------------------
+
+REQUIREMENTS :
+______________
+
+    hellanzb >= 0.13    http://www.hellanzb.com/distfiles
+    Unix O/S            E.g.: http://www.ubuntu.org
+    Python >= 2.3       http://www.python.org
+    pygtk >= 2.4        http://www.pygtk.org
+    python-gnome
+    python-gnome-extras (or python-gnome-desktop if you're using GNOME >= 2.14)
+    
+    
+
+INSTALLING :
+____________
+
+The latest release is available at:
+
+    http://nicoworkspace.free.fr/?q=ghellanzb-downloads
+
+gHellanzb is available in three formats:
+    o deb package for Ubuntu >= 8.04, including dependancies,
+    o deb package for Ubuntu >= 8.04, without the dependancies (if you have 
+      installed hellanzb from the source package instead of using the deb 
+      package),
+    o source package if you want to have a look at the codes, or if you want to 
+      install it yourself.
+
+CONFIGURING :
+_____________
+
+gHellanzb does not need configuration. What you need to do is look at the 
+hellanzb.conf file (usually /etc/hellanzb.conf), to check that the 
+following variables are enabled and configured:
+
+    Hellanzb.XMLRPC_SERVER = 'localhost'
+
+    Hellanzb.XMLRPC_PORT = 8760
+
+    Hellanzb.XMLRPC_PASSWORD = 'changeme'
+    
+
+

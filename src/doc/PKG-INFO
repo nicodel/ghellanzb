@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ghellanzb
+Version: 0.1h
+Summary: gnome applet monitoring hellanzb
+Home-page: http://nicoworkspace.free.fr/?q=ghellanzb-downloads
+Author: Nicolas Delebecque
+Author-email: <nicolas.delebecque@gmail.com>
+License: GNU/GPL
+Description: ghellanzb is a small gnome applet monitoring hellanzb
+Platform: unix

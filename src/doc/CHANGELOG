@@ -1,0 +1,62 @@
+gHellaNzb                                                              CHANGELOG
+
+
+            gHellaNzb is a small gnome applet monitoring HellaNzb
+--------------------------------------------------------------------------------
+
+ghellanzb 0.1k :
+    o New features :
+        - New statistic module. Can be access through right-clik menu.
+
+ghellanzb 0.1j :
+    o Bug Fixed :
+        - the Current_processing informations were not retreived successfully.
+        It needed a "[0]" before the values label.
+
+ghellanzb 0.1i :
+    o Some problems
+
+ghellanzb 0.1h :
+    o New features :
+        - Replace the text info in the toolbar by icons.
+        - Add a right clic menu to the applet with the About dialog access.
+
+ghellanzb 0.1g :
+    o New features :
+        - Implement a logging features to record errorrs and debuging info.
+
+ghellanzb 0.1f :
+    o New features :
+        - A new frame is displayed, showing the processing nzb.
+
+ghellanzb 0.1e :
+    o New features :
+        - Hellanzb status in the gnome toolbar, is now inside displayed in a 
+        frame.
+        - The "details window" has a "better" looking". Frames have spaces
+        between them and the window's border.
+
+ghellanzb 0.1d :
+    o Bugs fixed :
+        - hellanzb.conf directory is not the same if the installation is done 
+        through the deb package (/etc/hellanzb.conf), or through the source 
+        package (/usr/etc/hellanzb.conf).
+
+ghellanzb 0.1c :
+    o New features :
+        - the applet messages are more precises in case of problem (no 
+        configuration file, no server, no port, no password)
+    o Bugs fixed :
+        - If hellanzb status is not reachable and the applet right clicked, we 
+        display a window that gives the possible error and solution to resolve 
+        the problem.
+
+ghellanzb 0.1b :
+    o Bugs fixed :
+        - Fix the following bug : If hellanzb not reachable, ghellanzb do 
+        nothing. Now ghelanzb display a "Hellanzb : not reachable", instead of 
+        doing nothing.
+
+ghellanzb 0.1a :
+    o First usable version
+	

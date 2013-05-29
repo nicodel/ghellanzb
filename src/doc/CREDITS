@@ -1,0 +1,24 @@
+ghellanzb                                                                CREDITS
+
+
+                 Gnome applet monitoring hellanzb
+--------------------------------------------------------------------------------
+
+o Nicolas Delebecque - Developer
+
+o ghellanzb/ghellanzb_applet.py uses code from ontv by:
+    
+    - Mikael Brockman <mikael@phubuh.org>
+    - Alex Graveley <alex@beatniksoftware.com>
+    - James Oakley <jfunk@funktronics.ca>
+    - Ville P?tsi <drc@gnu.org>
+    - Nigel Tao <nigel.tao@myrealbox.com>
+    - Josef Vybíral <cornelius@vybiral.info>
+    - Marcus Leyman <marcus@leyman.nu>
+    - Richard Hult <richard@imendio.com>
+    - Sylvain Cresto <scresto@gmail.com>
+    
+ o ghellanzb/ghellanzb_applet.py uses code from hellanzb by:
+ 
+	- Hellanzb.Util.walk was written by Robin Parmar
+		(http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52664)

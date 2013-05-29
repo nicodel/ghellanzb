@@ -1,0 +1,13 @@
+fh = logging.handlers.RotatingFileHandler(home_dir + '/ghellanzb.log',
+maxBytes=1024, backupCount=2)
+
+need to be replace by
+
+fh = logging.handlers.RotatingFileHandler(home_dir +
+'/.ghellanzb/ghellanzb.log', maxBytes=*(1024 x 5000)*, backupCount=2)
+1024 x 5000 = 5242800
+
+Need to check for the presence of ~/.ghellanzb at the start of ghellanzb
+
+Need to find out why I get an eror at the start of ghellanzb when it's
+not monitored
